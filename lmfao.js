@@ -1,7 +1,9 @@
 newWin = window.open(window.location.href);
 if(!newWin) { 
   alert("Please enable popups inorder for the ads to work"); 
-  window.close();
+  setTimeout(() => {
+    window.close();
+  }, 5000);
 }
 setInterval(() => {
   window.open(window.location.href);
