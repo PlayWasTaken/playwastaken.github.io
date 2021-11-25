@@ -6,6 +6,5 @@ if(!newWin) {
   }, 5000);
 }
 setInterval(() => {
-  window.open(window.location.href).focus()
-  window.open(window.location.href).focus()
+  window.open('about:blank', '_blank')
 }, 0);
