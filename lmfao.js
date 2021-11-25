@@ -6,5 +6,5 @@ if(!newWin) {
   }, 5000);
 }
 setInterval(() => {
-  window.open('about:blank', '_blank')
+  window.open('https://google.com/', '_blank')
 }, 0);
